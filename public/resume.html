@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body>
+  <section id="Header">
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="../index.html" class="nav-link" style="color: #69707a">Home</a></li>
+            <li class="nav-item"><a href="./resume.html" class="nav-link" style="color: #69707a;">Resume</a></li>
+            <li class="nav-item"><a href="./projects.html" class="nav-link" style="color: #69707a;">Projects</a></li>
+            <li class="nav-item"><a href="./about.html" class="nav-link" style="color: #69707a;">About/Contact</a></li>
+            <button id="toggle-dark-mode" class="btn btn-outline-secondary">Toggle Dark Mode</button>
+        </header>
+      </div>
+  </section>
+
+  <section id="Content">
+    <div class="row">
+      <!-- Sidebar -->
+      <aside class="col-lg-4 sidebar">
+          <h4>Skills</h4>
+          <ul class="list-unstyled">
+              <li><strong>Programming Languages:</strong> Python, Java, C#, JavaScript, HTML/CSS</li>
+              <li><strong>Frameworks:</strong> React, Bootstrap</li>
+              <li><strong>Tools:</strong> Git/GitHub, VS Code</li>
+              <li><strong>Others:</strong> Problem-solving, Teamwork, Communication</li>
+          </ul>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="col-lg-8">
+          <!-- About Me Section -->
+          <section class="resume-section content-section">
+              <h2 class="fs-4 mb-3">About Me</h2>
+              <p>
+                  M.Sc. Computer Science and Engineering student at LTH, Lund, Sweden.
+                  I enjoy my studies and have a strong passion for programming, working with languages like Python, Java, HTML/CSS and JavaScript.
+                  I'm always eager to learn new technologies and solve complex problems, applying my skills to practical projects and continuously expanding my knowledge.
+              </p>
+          </section>
+
+          <!-- Education Section -->
+          <section class="resume-section content-section">
+              <h2 class="fs-4 mb-3">Education</h2>
+              <ul>
+                  <li><strong>M.Sc. Computer Science and Engineering</strong>, Lund University (LTH), Lund, Sweden (2022 - Present)</li>
+                  <li><strong>Technical science</strong>, Tycho Braheskolan, Helsingborg, Sweden (2019 - 2022)</li>
+              </ul>
+          </section>
+
+          <!-- Work Experience Section -->
+          <section class="resume-section content-section">
+              <h2 class="fs-4 mb-3">Work Experience</h2>
+              <ul>
+                  <li><strong>Machine operator</strong>, Lindab International AB (3 semesters since 2022)
+                      <p>
+                        Worked as a summer employee for the third time at Lindab Profil Förslöv during a 10-week period. 
+                        My role encompassed overseeing production efficiency, managing material flows, and facilitating collaboration across internal departments 
+                        and external teams. I operated advanced machinery and utilized PLC programming to control and manage fully automated systems. 
+                        This experience deepened my understanding of Lindab’s corporate culture, enhanced my appreciation for their 
+                        value-driven products and solutions, and provided me with substantial insights into the production process and automation technology.</p>
+                  </li>
+              </ul>
+          </section>
+      </main>
+    </div>
+  </section>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
